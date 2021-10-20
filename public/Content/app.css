@@ -21,7 +21,6 @@ main{
     margin-left:auto;
     margin-right:auto;
     width:960px;
-    height: auto;
     display: table;
 }
 
@@ -61,7 +60,6 @@ a{
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
   width: 1300px;
-  height: 780px;
 }
 
 #about_box{
@@ -319,135 +317,26 @@ table {
   border: 1px solid black;
   padding: 10px;
 }
+.booksTable{
+  background-color: initial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 20px;
+}
 
-@media (max-width: 400px) {
-  body{
-    overflow-x: hidden;
-  }
-  
-  #jum_home, #jum_services {
-    width: 330px;
-    height: 1000px;
-  }
-  
-  #jum_projects{
-    width: 330px;
-    height: 1350px;
-  }
-  
-  .projects_img{
-    width: 200px;
-    position: relative;
-    top: 150px;
-    left: -100px;
-  }
-  
-  #jum_contact{
-    height: 1400px;
-    width: 350px;
-    position: relative;
-    left: -13px;
-    
-  }
-   #jum_about{
-    width: 330px;
-    height: 1400px;
-  }
-  #welcome{
-    width: 300px;
-    height: 200px;
-    position: relative;
-    left: -31px;
-  }
-  .home_box{
-    width: 300px;
-    height: 550px;
-    left: -29px;
-    bottom: -20px
-  }
-  #me{
-    left: 15px;
-    height: 200px;
-    width: 200px;
-  }
-  .about_box{
-    left: -14px;
-    bottom: 850px;
-    width: 280px;
-    height: 900px;
-  }
-  #about_text{
-    width: 260px;
-    left: -5px;
-    top: 30px;
-  }
-  #computer_pic{
-    width: 0px;
-  }
-  #tables{
-    left: -200px;
-    top:-500px;
-    width: 220px;
-    
-  }
-  
-  #semester1,#semester2,#semester3{
-    display: list-item;
-    list-style: none;
-    left:200px;
-    top: 50px;
-  }
-  .hover{
-    font-size: 18px;
+#nameTextField, #authorTextField, #publishedTextField,
+#descriptionTextArea, #priceTextField, label{
+  width: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  }
-  
-  #table1, #table2, #table3{
-    left: 165px;
-    width: 300px;
-    height: 400px;
-  }
-  #services_page{
-    width: 300px;
-    left: -32px;
-    top: 10px;
-    height: 400px;
-  }
-  #service_img{
-    width: 300px;
-    left: -30px;
-  }
-  #contact_box{
-    width: 330px;
-    left: -40px;
-    height: 220px;
-  }
-  #contact_box2{
-    width: 330px;
-    left: -40px;
-    top: 70px;
-  }
-  .contact_page{
-    left: -22px;
-    font-size:small;
-  }
-  .button{
-    font-size: 11px;
-  }
-  
-  textarea{
-    left: -13px;
-    width:320px;
-  }
-  #product_box{
-    width: 300px;
-    position: relative;
-    left: -30px;
-  }
-  
-  .projects_img{
-    left: -65px;
-    width: 210px;
-    height: 160px;
-  }
-} 
+#descriptionTextArea{
+ position: relative;
+ left: 150px; 
+}
+
+#addBook{
+  position: relative;
+  left: 200px;
+  top: 170px;
+  z-index:10;
+}
