@@ -15,6 +15,7 @@
 
 body{
   background-color: #334355;
+  height: fit-content;
 }
 
 main{
@@ -60,8 +61,11 @@ a{
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
   width: 1300px;
+  
 }
-
+#jum_home, #jum_about, #jum_projects, #jum_contact{
+  height: 800px;
+}
 #about_box{
   color: white;
   width: 500px; 
