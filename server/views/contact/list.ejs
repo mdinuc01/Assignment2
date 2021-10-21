@@ -1,4 +1,4 @@
-<!--File Name: books.ejs
+<!--File Name: list.ejs
     Student Name: Michael-Angelo Dinuccio
     StudentID: 301177707
     Date: October 14th, 2021
@@ -8,7 +8,7 @@
 
     <%- include ../Partials/main_nav.ejs%>
         <% if(typeof displayName=='string' && displayName) { %>
-            <a href="/contact-list/add" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="btn btn-primary" role="button" id="addBook"><i
+            <a href="/contact-list/add" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="btn btn-primary" role="button" id="addContact"><i
                     class="fas fa fa-plus-circle"></i> <b>Add a Contact</b></a>
             <% } %>
                 <main class="container-fluid">
@@ -20,7 +20,7 @@
                             </h1>
                             <br>
                             <br>
-                            <table class="table table-bordered table-striped table-hover booksTable col-md-10">
+                            <table class="table table-bordered table-striped table-hover contactTable col-md-10">
                                 <!-- Header Row-->
                                 <tr>
                                     <th class="text-center" scope="col-1">Name</th>

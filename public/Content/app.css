@@ -34,6 +34,7 @@ main{
   top:0px;
   z-index: 20;
 }
+
 #logo{
   height: 80px;
   width: 80px;
@@ -115,6 +116,7 @@ input {
   position: relative;
   left: 150px;
   bottom: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  textarea{
@@ -280,7 +282,7 @@ table {
   color: white;
   border-radius: 10px;
   padding: 20px;
-  height: 200px;
+  height: 210px;
   width: 525px;
   border: 1px black solid;
   position: relative;
@@ -321,14 +323,14 @@ table {
   border: 1px solid black;
   padding: 10px;
 }
-.booksTable{
+.contactTable{
   background-color: initial;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   left: 20px;
 }
 
 #nameTextField, #authorTextField, #publishedTextField,
-#descriptionTextArea, #priceTextField, label{
+#descriptionTextArea, #priceTextField,{
   width: 75%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -338,7 +340,7 @@ table {
  left: 150px; 
 }
 
-#addBook{
+#addContact{
   position: relative;
   left: 200px;
   top: 170px;
@@ -346,10 +348,14 @@ table {
 }
 
 #nameTextField, #emailTextField, #numberTextField{
-  width: 500px;
+  width: 50%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label{
   font-family: bebas_neuebold;
+  font-size: 21px;
+  position: relative;
+  left: 30px;
+  top: 11px;
 }
