@@ -340,3 +340,12 @@ table {
   top: 170px;
   z-index:10;
 }
+
+#nameTextField, #emailTextField, #numberTextField{
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label{
+  font-family: bebas_neuebold;
+}
