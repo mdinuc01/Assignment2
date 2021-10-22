@@ -330,7 +330,7 @@ table {
 }
 
 #nameTextField, #authorTextField, #publishedTextField,
-#descriptionTextArea, #priceTextField,{
+#descriptionTextArea, #priceTextField{
   width: 75%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

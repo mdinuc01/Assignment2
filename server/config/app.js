@@ -1,7 +1,7 @@
 /* <   File Name: app.js
     Student Name: Michael-Angelo Dinuccio
     StudentID: 301177707
-    Date: September 30th, 2021 */
+    Date: October 10th, 2021 */
 
 //installed 3rd party packages
 let createError = require('http-errors');
@@ -22,11 +22,11 @@ let mongoose = require('mongoose');
 let DB = require('./db.js');
 
 // point mongoose to the DB URI
-mongoose.connect(DB.URI, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(DB.URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let mongoDB = mongoose.connection;
 mongoDB.on('error', console.error.bind(console, "Connection Error:"));
-mongoDB.once('open', ()=>{
+mongoDB.once('open', () => {
   console.log("Connected to MongoDB...");
 });
 
@@ -79,12 +79,12 @@ app.use('/users', usersRouter);
 app.use('/contact-list', contactRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

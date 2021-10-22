@@ -1,3 +1,4 @@
+const { support } = require('jquery');
 let mongoose = require('mongoose');
 
 // create a model class
@@ -9,5 +10,6 @@ let contactModel = mongoose.Schema({
 {
     collection: "contacts"
 });
+
 
 module.exports = mongoose.model('Contact', contactModel);
